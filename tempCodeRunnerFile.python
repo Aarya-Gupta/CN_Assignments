@@ -1,0 +1,27 @@
+import socket
+
+def check_connection(address):
+    """Check if a connection can be established to a given address (host, port)."""
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        sock.settimeout(1)  # 1-second timeout for connection attempts
+        try:
+            sock.connect(address)
+            print(f"Connection successful: {address}")
+            return True
+        except (socket.timeout, ConnectionRefusedError):
+            print(f"No connection at: {address}")
+            return False
+
+# Machine 1 addresses
+MACHINE1_SENDER_ADDRESS = ('localhost', 12000)
+MACHINE1_RECEIVER_ADDRESS = ('localhost', 13000)
+
+# Machine 2 addresses
+MACHINE2_SENDER_ADDRESS = ('localhost', 12001)
+MACHINE2_RECEIVER_ADDRESS = ('localhost', 13001)
+
+# Check connections
+check_connection(MACHINE1_SENDER_ADDRESS)
+check_connection(MACHINE1_RECEIVER_ADDRESS)
+check_connection(MACHINE2_SENDER_ADDRESS)
+check_connection(MACHINE2_RECEIVER_ADDRESS)

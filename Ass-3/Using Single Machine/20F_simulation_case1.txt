@@ -1,0 +1,106 @@
+Generated: Packet_0
+Sent Frame: Seq 0
+Received Frame: Seq 0
+Sent ACK: 0
+Generated: Packet_1
+Sent Frame: Seq 1
+Received Frame: Seq 1
+Sent ACK: 1
+Generated: Packet_2
+Sent Frame: Seq 2
+Received Frame: Seq 2
+Sent ACK: 2
+Generated: Packet_3
+Sent Frame: Seq 3
+Received Frame: Seq 3
+Sent ACK: 3
+Generated: Packet_4
+Sent Frame: Seq 4
+Received Frame: Seq 4
+Generated: Packet_5
+Sent ACK: 4
+Sent Frame: Seq 5
+Received Frame: Seq 5
+Generated: Packet_6
+Sent ACK: 5
+Sent Frame: Seq 6
+Received Frame: Seq 6
+Received ACK: 0
+Generated: Packet_7
+Sent ACK: 6
+Sent Frame: Seq 7
+Received Frame: Seq 7
+Received ACK: 1
+Sent ACK: 7
+Generated: Packet_8
+Sent Frame: Seq 0
+Received Frame: Seq 0
+Received ACK: 2
+Generated: Packet_9
+Sent ACK: 0
+Sent Frame: Seq 1
+Received Frame: Seq 1
+Received ACK: 3
+Generated: Packet_10
+Sent ACK: 1
+Sent Frame: Seq 2
+Received Frame: Seq 2
+Received ACK: 4
+Sent ACK: 2
+Generated: Packet_11
+Sent Frame: Seq 3
+Received Frame: Seq 3
+Received ACK: 5
+Sent ACK: 3
+Generated: Packet_12
+Sent Frame: Seq 4
+Received Frame: Seq 4
+Received ACK: 6
+Generated: Packet_13
+Sent ACK: 4
+Sent Frame: Seq 5
+Received Frame: Seq 5
+Received ACK: 7
+Generated: Packet_14
+Sent Frame: Seq 6
+Received ACK: 0
+Sent ACK: 5
+Received Frame: Seq 6
+Generated: Packet_15
+Sent ACK: 6
+Sent Frame: Seq 7
+Received Frame: Seq 7
+Received ACK: 1
+Generated: Packet_16
+Sent ACK: 7
+Sent Frame: Seq 0
+Received Frame: Seq 0
+Received ACK: 2
+Generated: Packet_17
+Sent ACK: 0
+Sent Frame: Seq 1
+Received Frame: Seq 1
+Received ACK: 3
+Generated: Packet_18
+Sent ACK: 1
+Sent Frame: Seq 2
+Received Frame: Seq 2
+Received ACK: 4
+Sent ACK: 2
+Generated: Packet_19
+Sent Frame: Seq 3
+Received Frame: Seq 3
+Received ACK: 5
+Received ACK: 6
+Received ACK: 7
+Received ACK: 0
+Received ACK: 1
+Received ACK: 2
+Sent ACK: 3
+Received ACK: 3
+
+Simulation Completed.
+Total Frames Sent: 20
+Total Retransmissions: 0
+Average Delay per Packet: 0.1536 seconds
+Average Number of Times a Frame was Sent: 1.00
