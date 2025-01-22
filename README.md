@@ -1,6 +1,4 @@
-### README for Computer Networks Assignments Repository  
-
-# Computer Networks Assignments  
+# Practical Networking Simulations and Protocol Implementations
 
 This repository contains a collection of assignments completed for **CSE 232 Section B: Computer Networks**. Each assignment focuses on implementing and simulating key networking concepts, including UDP and TCP protocols, data link layer protocols, and network performance evaluation using NS3.  
 
