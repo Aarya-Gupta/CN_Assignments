@@ -7,41 +7,64 @@ This repository contains a collection of assignments completed for **CSE 232 Sec
 ## Repository Structure  
 
 ```
-CN_Assignments/  
-├── Ass-1/  
-│   ├── PART1/  
-│   │   ├── Part1_Explanation.md  
-│   │   ├── UDPPingerClient.ipynb  
-│   │   ├── UDPPingerServer.ipynb  
-│   ├── PART2/  
-│   │   ├── Part2_Explanation.md  
-│   │   ├── UDPHeartbeatClient.ipynb  
-│   │   ├── UDPHeartbeatServer.ipynb  
-│   ├── Programming Exercise 1.pdf  
-│   └── REPORT.md  
-├── Ass-2/  
-│   ├── client.py  
-│   ├── server-1.py  
-│   ├── server-2.py  
-│   ├── webpage.html  
-│   ├── Programming Exercise 2.pdf  
-│   └── report.pdf  
-├── Ass-3/  
-│   ├── Using Single Machine/  
-│   │   ├── usingSingleMachine.py  
-│   │   ├── Simulation Outputs/  
-│   ├── Using Two Machines/  
-│   │   ├── machine1.py  
-│   │   ├── machine2.py  
-│   │   ├── Output Logs/  
-│   ├── Programming Exercise 3.pdf  
-│   └── REPORT_CN_ASS-3.pdf  
-├── Ass-4/  
-│   ├── main.cpp  
-│   ├── CN-Ass-4-Report.pdf  
-│   ├── CN-Ass-4-Slides.pdf  
-│   └── Programming Exercise 4.pdf  
-├── README.md  
+|   README.md
+|   tempCodeRunnerFile.py
+|   tempCodeRunnerFile.python
+|
++---Ass-1
+|   |   Programming Exercise 1.pdf
+|   |   REPORT.md
+|   |
+|   +---PART1
+|   |       Part1_Explanation.md
+|   |       UDPPingerClient.ipynb
+|   |       UDPPingerServer.ipynb
+|   |
+|   \---PART2
+|           Part2_Explanation.md
+|           UDPHeartbeatClient.ipynb
+|           UDPHeartbeatServer.ipynb
+|
++---Ass-2
+|       .DS_Store
+|       client.py
+|       ppt-raj jain.pptx
+|       Programming Exercise 2.pdf
+|       report-raj jain.pdf
+|       server-1.py
+|       server-2.py
+|       webpage.html
+|
++---Ass-3
+|   |   Code Explanation.pdf
+|   |   PPT_CN_Ass-3.pdf
+|   |   Programming Exercise 3.pdf
+|   |   REPORT_CN_ASS-3.pdf
+|   |   
+|   +---Using Single Machine
+|   |   |   10000F_simulation_case1.txt
+|   |   |   10000F_simulation_case2.txt
+|   |   |   20F_simulation_case1.txt
+|   |   |   20F_simulation_case2.txt
+|   |   |   usingSingleMachine.py
+|   |   |
+|   |   \---Outputs
+|   |           case-1 output.png
+|   |           case-2 output.png
+|   |           terminal_output.png
+|   |
+|   \---Using Two Machines
+|           another_version.py
+|           machine1.py
+|           machine1_output.txt
+|           machine2.py
+|           machine2_output.txt
+|
+\---Ass-4
+        CN-Ass-4-Report.pdf
+        CN-Ass-4-Slides.pdf
+        main.cpp
+        Programming Exercise 4.pdf
 ```  
 
 ## Assignments Overview  
